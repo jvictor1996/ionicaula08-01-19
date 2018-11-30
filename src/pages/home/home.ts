@@ -6,9 +6,16 @@ import { NavController } from 'ionic-angular';
   templateUrl: 'home.html'
 })
 export class HomePage {
-
+  VetorImagem: any = [];
   constructor(public navCtrl: NavController) {
+      this.VetorImagem = [
+        {'imagem':'../../assets/imgs/indice.jpg'},
+        {'imagem':'../../assets/imgs/indice1.jpg'},
+        {'imagem':'../../assets/imgs/indice3.jpg'},
+  ]
 
+      
   }
+
 
 }
