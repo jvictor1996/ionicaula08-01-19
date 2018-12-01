@@ -6,11 +6,11 @@
     <ion-title>Home</ion-title>
   </ion-navbar>
 </ion-header>
-<ion-content padding>
-  <ion-slides class="slides" autoplay="2000" loop="true" speed="2000">
-    <ion-slide *ngFor="let imagem of VetorImagem" >
+<ion-content class="corFundo">
+  <ion-slides class="slides" autoplay="2000" loop="true" speed="3000">
+    <ion-slide *ngFor="let imagem of VetorImagem">
       <img src="{{imagem.imagem}}" alt="">
-      <h1></h1>
+      <h1>opa</h1>
     </ion-slide>
   </ion-slides>
 </ion-content>
