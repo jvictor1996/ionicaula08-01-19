@@ -8,9 +8,11 @@
 </ion-header>
 <ion-content class="corFundo">
   <ion-slides class="slides" autoplay="2000" loop="true" speed="3000">
-    <ion-slide *ngFor="let imagem of VetorImagem">
+    <ion-slide class="slides" *ngFor="let imagem of VetorImagem">
       <img src="{{imagem.imagem}}" alt="">
       <h1>opa</h1>
     </ion-slide>
   </ion-slides>
+  <div class="spacer" style="width: 320px; height: px;"></div>
+  <h3>Portfólio</h3>
 </ion-content>
