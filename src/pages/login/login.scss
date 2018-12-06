@@ -1,3 +1,12 @@
 page-login {
-
+    ion-content{
+        background-image: url("../../assets/imgs/agil_login1fundo.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+    }
+   ion-list{
+       background-color: #fff ;
+       opacity: 0.2;
+   }
 }

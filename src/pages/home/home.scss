@@ -1,9 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script');
+
 page-home {
-.corFundo{
-    background-color:#e8ecef;
-}
-.slides{
-    padding-bottom:20px;
-    position:relative;
-}
+    .card-background-page {
+
+        ion-card {
+          position: relative;
+          text-align: center;
+        }
+      
+        .card-title {
+          position: absolute;
+          top: 36%;
+          font-size: 2.5em;
+          width: 100%;
+          font-weight: bold;
+          color: #fff;
+          font-family: 'Dancing Script', cursive;
+        }
+      
+        .card-subtitle {
+          font-size: 1.5em;
+          position: absolute;
+          top: 52%;
+          width: 100%;
+          color: #fff;
+          font-family: 'Dancing Script', cursive;
+        }
+      
+      }
+      ion-content{
+        background-image: url("../../assets/imgs/agil_login2fundo.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .test{
+      opacity :0 ;
+ }
 }

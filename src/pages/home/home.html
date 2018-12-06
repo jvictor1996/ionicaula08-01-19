@@ -6,13 +6,30 @@
     <ion-title>Home</ion-title>
   </ion-navbar>
 </ion-header>
-<ion-content class="corFundo">
-  <ion-slides class="slides" autoplay="2000" loop="true" speed="3000">
-    <ion-slide class="slides" *ngFor="let imagem of VetorImagem">
-      <img src="{{imagem.imagem}}" alt="">
-      <h1>opa</h1>
-    </ion-slide>
-  </ion-slides>
-  <div class="spacer" style="width: 320px; height: px;"></div>
-  <h3>Portfólio</h3>
+<ion-content class="card-background-page">
+
+  <ion-card>
+    <img class="test" src="assets/imgs/agil_entrada.jpg" />
+    <div class="card-title">Entradas</div>
+    <div class="card-subtitle">5 Pratos</div>
+  </ion-card>
+
+  <ion-card>
+    <img src="assets/imgs/agil_principal.jpg" />
+    <div class="card-title">Pratos Principais</div>
+    <div class="card-subtitle">5 Pratos</div>
+  </ion-card>
+
+  <ion-card>
+    <img src="assets/imgs/agil_sobremesa.jpg" />
+    <div class="card-title">Sobremesas</div>
+    <div class="card-subtitle">5 Pratos</div>
+  </ion-card>
+
+  <ion-card>
+    <img src="assets/imgs/agil_bebida.jpg" />
+    <div class="card-title">Bebidas</div>
+    <div class="card-subtitle">5 Bebidas</div>
+  </ion-card>
+
 </ion-content>

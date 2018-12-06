@@ -4,10 +4,6 @@ import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 
 import { HomePage } from '../pages/home/home';
-import { PortfolioPage } from '../pages/portfolio/portfolio';
-import { SobreNosPage } from '../pages/sobre-nos/sobre-nos';
-import { ColaboradoresPage } from '../pages/colaboradores/colaboradores';
-import { ContatoPage } from '../pages/contato/contato';
 import { LoginPage } from '../pages/login/login';
 
 @Component({
@@ -16,7 +12,7 @@ import { LoginPage } from '../pages/login/login';
 export class MyApp {
   @ViewChild(Nav) nav: Nav;
 
-  rootPage: any = HomePage;
+  rootPage: any = LoginPage;
 
   pages: Array<{title: string, component: any}>;
 
@@ -26,10 +22,6 @@ export class MyApp {
     // used for an example of ngFor and navigation
     this.pages = [
       { title: 'Home', component: HomePage },
-      { title: 'Portfólio', component: PortfolioPage },
-      { title: 'Sobre Nós', component: SobreNosPage },
-      { title: 'Colaboradores', component: ColaboradoresPage },
-      { title: 'Contato', component: ContatoPage },
       { title: 'Login', component: LoginPage }
     ];
 
