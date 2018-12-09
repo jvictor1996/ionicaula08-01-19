@@ -3,33 +3,13 @@
     <button ion-button menuToggle>
       <ion-icon name="menu"></ion-icon>
     </button>
-    <ion-title>Home</ion-title>
+    <ion-title>Categorias</ion-title>
   </ion-navbar>
 </ion-header>
 <ion-content class="card-background-page">
-
-  <ion-card>
-    <img class="test" src="assets/imgs/agil_entrada.jpg" />
-    <div class="card-title">Entradas</div>
-    <div class="card-subtitle">5 Pratos</div>
+  <ion-card (click)="navPratos(c.id)" *ngFor="let c of categorias">
+    <img class="test" src="{{c.imgCat}}" />
+    <div class="card-title">{{c.nomeCat}}</div>
+    <div class="card-subtitle">{{c.numPratos}}</div>
   </ion-card>
-
-  <ion-card>
-    <img src="assets/imgs/agil_principal.jpg" />
-    <div class="card-title">Pratos Principais</div>
-    <div class="card-subtitle">5 Pratos</div>
-  </ion-card>
-
-  <ion-card>
-    <img src="assets/imgs/agil_sobremesa.jpg" />
-    <div class="card-title">Sobremesas</div>
-    <div class="card-subtitle">5 Pratos</div>
-  </ion-card>
-
-  <ion-card>
-    <img src="assets/imgs/agil_bebida.jpg" />
-    <div class="card-title">Bebidas</div>
-    <div class="card-subtitle">5 Bebidas</div>
-  </ion-card>
-
 </ion-content>

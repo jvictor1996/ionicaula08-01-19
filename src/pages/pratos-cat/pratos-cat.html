@@ -1,0 +1,20 @@
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>PratosCat</ion-title>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+  <img src="/assets/imgs/agil_entradas/agil_tartar.jpg" />
+  <ion-card *ngFor="let p of pratos">
+    <img src="{{p.imgPrato}}" />
+    <p>{{p.nomePrato}}</p>
+  </ion-card>
+
+</ion-content>
