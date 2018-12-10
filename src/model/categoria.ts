@@ -1,5 +1,5 @@
 export class Categoria{
-    idCat: number;
+    id: number;
     nomeCat: String;
     imgCat: String;
     numPratos: String;

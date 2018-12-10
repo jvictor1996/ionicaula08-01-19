@@ -1,5 +1,5 @@
 export class Prato{
-    idPrato: number;
+    id: number;
     idCat: number;
     catPrato: String;
     nomePrato: String;

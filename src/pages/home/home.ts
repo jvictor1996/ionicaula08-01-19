@@ -14,9 +14,8 @@ export class HomePage {
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
 
-  navPratos(id_categoria: number) {
-    this.navCtrl.push('PratosCatPage', { idCat: id_categoria });
+  navPratos(idCat: number) {
+    this.navCtrl.push('PratosCatPage', { id: idCat });
   }
 
 }
-

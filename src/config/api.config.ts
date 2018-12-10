@@ -3,25 +3,25 @@ import { Prato } from "../model/prato";
 
 export const CATEGORIA: Categoria[] = [
     {
-        idCat: 1,
+        id: 1,
         nomeCat: "Entradas",
         imgCat: "/assets/imgs/agil_entrada.jpg",
         numPratos: "4 Pratos",
     },
     {
-        idCat: 2,
+        id: 2,
         nomeCat: "Principais",
         imgCat: "/assets/imgs/agil_principal.jpg",
         numPratos: "4 Pratos",
     },
     {
-        idCat: 3,
+        id: 3,
         nomeCat: "Sobremesas",
         imgCat: "/assets/imgs/agil_sobremesa.jpg",
         numPratos: "4 Pratos",
     },
     {
-        idCat: 4,
+        id: 4,
         nomeCat: "Bebidas",
         imgCat: "/assets/imgs/agil_bebida.jpg",
         numPratos: "4 Bebidas",
@@ -31,7 +31,7 @@ export const CATEGORIA: Categoria[] = [
 
 export const PRATOS: Prato[] = [
     {
-        idPrato: 1,
+        id: 1,
         idCat: 1,
         catPrato: "Entradas",
         nomePrato: "Tartar de Salmão",
@@ -41,7 +41,7 @@ export const PRATOS: Prato[] = [
         preco: 64.00,
     },
     {
-        idPrato: 2,
+        id: 2,
         idCat: 1,
         catPrato: "Entradas",
         nomePrato: "Carpaccio",
@@ -51,7 +51,7 @@ export const PRATOS: Prato[] = [
         preco: 24.90,
     },
     {
-        idPrato: 3,
+        id: 3,
         idCat: 1,
         catPrato: "Entradas",
         nomePrato: "Salada Caesar",
@@ -61,7 +61,7 @@ export const PRATOS: Prato[] = [
         preco: 25.40,
     },
     {
-        idPrato: 4,
+        id: 4,
         idCat: 1,
         catPrato: "Entradas",
         nomePrato: "Porção de bolinho de bacalhau.",
@@ -71,7 +71,7 @@ export const PRATOS: Prato[] = [
         preco: 30.70,
     },
     {
-        idPrato: 5,
+        id: 5,
         idCat: 2,
         catPrato: "Principais",
         nomePrato: "Ravioli de Mussarela de Búfala",
@@ -81,7 +81,7 @@ export const PRATOS: Prato[] = [
         preco: 49.00,
     },
     {
-        idPrato: 6,
+        id: 6,
         idCat: 2,
         catPrato: "Principais",
         nomePrato: "Carioquinha La Mole Contrafilé",
@@ -91,7 +91,7 @@ export const PRATOS: Prato[] = [
         preco: 28.90,
     },
     {
-        idPrato: 7,
+        id: 7,
         idCat: 2,
         catPrato: "Principais",
         nomePrato: "Mozzarella Marinara",
@@ -101,7 +101,7 @@ export const PRATOS: Prato[] = [
         preco: 29.90,
     },
     {
-        idPrato: 8,
+        id: 8,
         idCat: 2,
         catPrato: "Principais",
         nomePrato: "Arancini",
@@ -111,7 +111,7 @@ export const PRATOS: Prato[] = [
         preco: 29.90,
     },
     {
-        idPrato: 9,
+        id: 9,
         idCat: 3,
         catPrato: "Sobremesas",
         nomePrato: "Petit Gâteau au Chocolat",
@@ -121,7 +121,7 @@ export const PRATOS: Prato[] = [
         preco: 24.00,
     },
     {
-        idPrato: 10,
+        id: 10,
         idCat: 3,
         catPrato: "Sobremesas",
         nomePrato: "Crème Brûlée",
@@ -131,7 +131,7 @@ export const PRATOS: Prato[] = [
         preco: 24.00,
     },
     {
-        idPrato: 11,
+        id: 11,
         idCat: 3,
         catPrato: "Sobremesas",
         nomePrato: "Panacotta",
@@ -141,7 +141,7 @@ export const PRATOS: Prato[] = [
         preco: 24.00,
     },
     {
-        idPrato: 12,
+        id: 12,
         idCat: 3,
         catPrato: "Sobremesas",
         nomePrato: "Creme de Papaya",
@@ -151,7 +151,7 @@ export const PRATOS: Prato[] = [
         preco: 24.00,
     },
     {
-        idPrato: 13,
+        id: 13,
         idCat: 4,
         catPrato: "Bebidas",
         nomePrato: "Água Mineral (300 ml)",
@@ -161,7 +161,7 @@ export const PRATOS: Prato[] = [
         preco: 6.00,
     },
     {
-        idPrato: 14,
+        id: 14,
         idCat: 4,
         catPrato: "Bebidas",
         nomePrato: "Refrigerante (350 ml)",
@@ -171,7 +171,7 @@ export const PRATOS: Prato[] = [
         preco: 6.00,
     },
     {
-        idPrato: 15,
+        id: 15,
         idCat: 4,
         catPrato: "Bebidas",
         nomePrato: "Heineken (longneck)",
@@ -181,7 +181,7 @@ export const PRATOS: Prato[] = [
         preco: 10.00,
     },
     {
-        idPrato: 16,
+        id: 16,
         idCat: 4,
         catPrato: "Bebidas",
         nomePrato: "Baden Baden Witbier /IPA",
