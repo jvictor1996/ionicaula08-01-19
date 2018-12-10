@@ -1,19 +1,15 @@
 <ion-header>
-
   <ion-navbar>
     <ion-title>PratosCat</ion-title>
     <button ion-button menuToggle>
       <ion-icon name="menu"></ion-icon>
     </button>
   </ion-navbar>
-
 </ion-header>
-
-
-<ion-content padding>
+<ion-content class="card-background-page">
   <ion-card *ngFor="let p of pratos">
     <img src="{{p.imgPrato}}" />
-    <p>{{p.nomePrato}}</p>
+    <div class="card-title">{{p.nomePrato}}</div>
+    <div class="card-subtitle"></div>
   </ion-card>
-
 </ion-content>
