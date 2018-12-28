@@ -14,15 +14,11 @@ export class PratosCatPage {
   pratos: Prato[] = [];
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
-
     this.id_categoria = this.navParams.get('id');
 
     for (var item in PRATOS) {
-
       if (PRATOS[item].idCat == this.id_categoria)
         this.pratos.push(PRATOS[item]);
     }
   }
-
-
 }

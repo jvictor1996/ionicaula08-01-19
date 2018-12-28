@@ -1,15 +1,17 @@
 <ion-header>
-  <ion-navbar>
-    <button ion-button menuToggle>
-      <ion-icon name="menu"></ion-icon>
-    </button>
-    <ion-title>Categorias</ion-title>
-  </ion-navbar>
+ <ion-navbar>
+  <button ion-button menuToggle>
+   <ion-icon name="menu"></ion-icon>
+  </button>
+  <ion-title>
+   Categorias
+  </ion-title>
+ </ion-navbar>
 </ion-header>
 <ion-content class="card-background-page">
-  <ion-card (click)="navPratos(c.id)" *ngFor="let c of categorias">
-    <img class="test" src="{{c.imgCat}}" />
-    <div class="card-title">{{c.nomeCat}}</div>
-    <div class="card-subtitle">{{c.numPratos}}</div>
-  </ion-card>
+ <ion-card (click)="navPratos(c.id)" *ngFor="let c of categorias">
+  <img class="test" src="{{c.imgCat}}" />
+  <div class="card-title">{{c.nomeCat}}</div>
+  <div class="card-subtitle">{{c.numPratos}}</div>
+ </ion-card>
 </ion-content>

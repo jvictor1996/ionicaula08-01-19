@@ -7,9 +7,11 @@
   </ion-navbar>
 </ion-header>
 <ion-content class="card-background-page">
-  <ion-card *ngFor="let p of pratos">
-    <img src="{{p.imgPrato}}" />
+  <ion-item *ngFor="let p of pratos">
+    <ion-thumbnail item-start>
+      <img no-padding src="{{p.imgPrato}}" />
+    </ion-thumbnail>
     <div class="card-title">{{p.nomePrato}}</div>
-    <div class="card-subtitle"></div>
-  </ion-card>
+    <div class="card-subtitle">{{p.descPrato}}</div>
+  </ion-item>
 </ion-content>
