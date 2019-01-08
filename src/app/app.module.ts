@@ -10,12 +10,15 @@ import { AngularFireModule } from '@angular/fire';
 import { AngularFireAuth } from 'angularfire2/auth';
 import { FirebaseConfig } from '../config/firebase.config';
 import { StorageService } from '../services/storage.service';
+import { SairPage } from '../pages/sair/sair';
+
 
 @NgModule({
   declarations: [
     MyApp,
     HomePage,
-    LoginPage
+    LoginPage,
+    SairPage
   ],
   imports: [
     BrowserModule,
@@ -26,7 +29,8 @@ import { StorageService } from '../services/storage.service';
   entryComponents: [
     MyApp,
     HomePage,
-    LoginPage
+    LoginPage,
+    SairPage
   ],
   providers: [
     StatusBar,

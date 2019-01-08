@@ -6,8 +6,9 @@
     </button>
   </ion-navbar>
 </ion-header>
+
 <ion-content class="card-background-page">
-  <ion-item *ngFor="let p of pratos">
+  <ion-item *ngFor="let p of pratos" (click)="detalhes(p)">
     <ion-thumbnail item-start>
       <img no-padding src="{{p.imgPrato}}" />
     </ion-thumbnail>

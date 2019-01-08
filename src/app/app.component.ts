@@ -6,6 +6,7 @@ import { HomePage } from '../pages/home/home';
 import { LoginPage } from '../pages/login/login';
 import { AngularFireAuth } from 'angularfire2/auth'
 import { SairPage } from '../pages/sair/sair';
+import { DetalhesPage } from '../pages/detalhes/detalhes';
 
 @Component({
   templateUrl: 'app.html'
@@ -24,7 +25,7 @@ export class MyApp {
     this.pages = [
       { title: 'Home', component: HomePage },
       { title: 'Login', component: LoginPage },
-      { title: 'Sair', component: SairPage }
+      { title: 'Sair', component: SairPage },
     ];
 
   }

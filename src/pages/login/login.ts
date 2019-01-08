@@ -20,6 +20,10 @@ export class LoginPage {
   public login(): void {
     this.firebaseauth.auth.signInWithEmailAndPassword(this.email.value, this.password.value)
       .then(() => {
+        if (this.email) {
+        }
+        else {
+        }
         this.exibirToast('Login efetuado com sucesso');
         this.storageService.setLocalUser(this.firebaseauth.auth.currentUser.email);
       })

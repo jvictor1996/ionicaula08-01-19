@@ -21,4 +21,8 @@ export class PratosCatPage {
         this.pratos.push(PRATOS[item]);
     }
   }
+
+  detalhes(prato : Prato){
+    this.navCtrl.push('DetalhesPage',{prato: prato});
+  }
 }

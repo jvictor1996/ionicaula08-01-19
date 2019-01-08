@@ -9,7 +9,9 @@ import { AngularFireAuth } from 'angularfire2/auth';
 })
 export class SairPage {
 
-  constructor(public navCtrl: NavController, public navParams: NavParams, public firebaseAuth : AngularFireAuth) {
+  constructor(public navCtrl: NavController,
+     public navParams: NavParams, 
+     public firebaseAuth : AngularFireAuth) {
   }
 
   ionViewDidLoad() {
@@ -19,6 +21,6 @@ export class SairPage {
     })
     .catch((erro: any)=>{
       console.log("Erro!");
-    })
+    });
   }
 }
